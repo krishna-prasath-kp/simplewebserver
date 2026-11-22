@@ -1,45 +1,24 @@
 # EX01 Developing a Simple Webserver
-## Date:
+
+## Name: Krishna Prasath
+## Register Number: 26017238
 
 ## AIM:
-To develop a simple webserver to serve html pages and display the Windows Specifications of your Laptop.
+To develop a simple webserver to serve html pages and display the list of protocols in TCP/IP Protocol Suite.
 
 ## DESIGN STEPS:
-### Step 1: 
-HTML content creation.
-
-### Step 2:
-Design of webserver workflow.
-
-### Step 3:
-Implementation using Python code.
-
-### Step 4:
-Import the necessary modules.
-
-### Step 5:
-Define a custom request handler.
-
-### Step 6:
-Start an HTTP server on a specific port.
-
-### Step 7:
-Run the Python script to serve web pages.
-
-### Step 8:
-Serve the HTML pages.
-
-### Step 9:
-Start the server script and check for errors.
-
-### Step 10:
-Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
+1. Import HTTPServer and BaseHTTPRequestHandler from http.server.
+2. Create the HTML content listing the TCP/IP protocols by layer.
+3. Define a handler class that responds to GET requests with the HTML page.
+4. Start the server on port 8000.
+5. Open 127.0.0.1:8000 in the browser to verify the output.
 
 ## PROGRAM:
-
+See `myserver.py` in this repository.
 
 ## OUTPUT:
-
+![Browser output](Screenshot%202026-11-22%20135505.png)
+![Terminal output](Screenshot%202026-11-22%20135542.png)
 
 ## RESULT:
-The program for implementing simple webserver is executed successfully.
+The program for implementing a simple webserver is executed successfully.
